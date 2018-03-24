@@ -44,12 +44,6 @@ public class FuncionarioServiceTest {
 	}
 	
 	@Test
-	public void deveBuscarFuncionarioPorId() {
-		Optional<Funcionario> funcionario = this.funcionarioService.buscarPorId(1L);
-		assertTrue(funcionario.isPresent());
-	}
-	
-	@Test
 	public void deveBuscarFuncionarioPorEmail() {
 		Optional<Funcionario> funcionario = this.funcionarioService.buscarPorEmail("email@email.com");
 		assertTrue(funcionario.isPresent());
