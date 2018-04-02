@@ -17,3 +17,6 @@ comment:
   require_changes: no
   require_base: no
   require_head: yes
+
+codecov:
+  token: b90a6b36-cc30-4320-b9e3-338e572110ee
